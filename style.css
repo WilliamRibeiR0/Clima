@@ -51,7 +51,7 @@ section{
   content: "";
   width: 17.6rem;
   height: 17.6rem;
-  background-image: url(assets/weather-clouds.svg);
+   
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -270,10 +270,11 @@ time.now {
 /* ------------------------------ WEEK WEATHER ------------------------------   */
 
 .week-weather {
-  padding: 4rem;
-
+  font-weight: 700;
+  text-align: center;
   display: flex;
-  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .day {
@@ -316,7 +317,7 @@ time.now {
 
   .air-quality .info{
     margin-top: 0.5rem;
-    gap:13px;
+    gap: 1.3rem;
   }
   
   .air-quality .info .number p{
