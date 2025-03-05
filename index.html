@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!------------ FONTS ------------>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,17 +17,21 @@
   </head>
   <body>
     <main>
+      
       <section class="temperature-now">
         <div class="location">
           <img src="assets/pin.svg" alt="icone de localização" />
-          <strong>Jundiai, SP</strong>
+          <input class="inputCidade" placeholder="  Qual é sua cidade?"></input>
+          <button class="btnPesquisa" onclick="clickBtn()">Pesquisar</button>
         </div>
+        
         <div class="temp">
+          <h2 class="cidadeUsuario"></h2>
           <div class="number">
-            18
+            <div class="tempAtual">...</div>
             <div class="max-min">
-              22°
-              <span>16°</span>
+              <div><span class="maxTemp">...</span></div>
+              <div><span class="minTemp">...</span></div>
             </div>
           </div>
           <div class="celsius">°C</div>
@@ -37,21 +41,21 @@
             <img src="assets/weather.svg" alt="" />
             <div class="info">
               <p>vento</p>
-              <h5>17<span>km/h</span></h5>
+              <h5 class="vento">...</h5>
             </div>
           </div>
           <div class="stats">
             <img src="assets/weatherb.svg" alt="" />
             <div class="info">
-              <p>Umidade</p>
-              <h5>31<span>%</span></h5>
+              <p>Umidade</p>             
+                <h5 class="umidadeAtual">...</h5>               
             </div>
           </div>
           <div class="stats">
             <img src="assets/weatherN.svg" alt="" />
             <div class="info">
-              <p>Chuva</p>
-              <h5>10<span>%</span></h5>
+              <p>Tempo</p>
+              <h5 class="estadoTempo">...</h5>
             </div>
           </div>
         </div>
@@ -144,5 +148,6 @@
           </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
