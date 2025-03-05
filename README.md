@@ -1,13 +1,33 @@
-# Clima
+# 🌤️ Aplicação de Clima
 
-Este projeto é o layout statico (os valores não estão sendo consumido por uma api) de uma aplicação de previsão do tempo, foi adicionado responsividade e o projeto foi desenvolvido usando HTML e CSS.
+Este projeto é uma aplicação simples que permite consultar as condições climáticas de qualquer cidade. Basta inserir o nome da cidade no campo de pesquisa para obter informações atualizadas sobre o clima.
 
-[Teste em tempo real](https://williamribeir0.github.io/Clima/)
+# 🚀 Tecnologias Utilizadas
+
+HTML → Estrutura do projeto
+
+CSS → Estilização e responsividade
+
+JavaScript → Consumo da API e interatividade
+
+# ✨ Funcionalidades
+
+✅ Pesquisa de previsão do tempo por cidade 🌍
+
+✅ Consumo dinâmico de dados da API ⛅
+
+✅ Design responsivo para diferentes dispositivos 📱💻
+
+# 📚 Referências
+
+Documentação da API [OpenWeather](https://openweathermap.org/)
+
+Guia de Estilização com HTML e CSS [Mayk Brito](https://www.youtube.com/watch?v=uCHXsKQ8Wts) 📺
 
 <center>
 
-![Desktop](./assets/desktop.png)
+## [Teste em tempo real](https://williamribeir0.github.io/Clima/)
 
-![Mobile](./assets/mobile.png)
+# Este site ainda está em Desenvolvimento...
 
 </center>
